@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML input</title>
+  </head>
+  <body>
+    <div>
+      <label for="meeting-time">Choose a time for your appointment:</label>
+      <input type="text" required />
+    </div>
+    <div>
+      <input
+        type="datetime-local"
+        name="meeting-time"
+        id="meeting-time"
+        value="2025-10-26T09:00"
+        min="2025-10-03T00:00"
+      />
+    </div>
+  </body>
+</html>
